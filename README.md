@@ -2,7 +2,7 @@
 
 This container runs script which relays json data stored in Python InfluxDB compatible format to InfluxDB. 
 
-The script is implemented as addition to [cs-pulse-sensor-kafka)(https://github.com/bwsw/cs-pulse-sensor-kafka).
+> The script is implemented as addition to [cs-pulse-sensor-kafka](https://github.com/bwsw/cs-pulse-sensor-kafka) code, but can be used separately as doesn't include specific code.
 
 ## Why
 
