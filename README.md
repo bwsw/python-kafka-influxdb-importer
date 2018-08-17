@@ -1,6 +1,8 @@
 # Python Kafka To InfluxDB Data Importer
 
-This container runs script which relays json data stored in Python InfluxDB compatible format to InfluxDB.
+This container runs script which relays json data stored in Python InfluxDB compatible format to InfluxDB. 
+
+The script is implemented as addition to [cs-pulse-sensor-kafka)(https://github.com/bwsw/cs-pulse-sensor-kafka).
 
 ## Why
 
