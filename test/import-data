@@ -1,0 +1,18 @@
+#!/bin/bash
+
+export KAFKA_BOOTSTRAP=10.252.2.4:9092,10.252.2.3:9092,10.252.2.2:9092
+export KAFKA_TOPIC=kvm-metrics
+export KAFKA_GROUP=group
+
+export INFLUX_HOST=10.252.2.4
+export INFLUX_PORT=8086
+export INFLUX_DB=pulse
+export INFLUX_USER=pulse
+export INFLUX_PASSWORD=pulsePassword
+
+export DEBUG=true
+
+../src/import-data.py
+
+
+
